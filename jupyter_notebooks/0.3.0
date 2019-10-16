@@ -1,0 +1,34 @@
+Collecting albumentations
+  Downloading https://files.pythonhosted.org/packages/b7/64/1bf10fa4a6bcaee1129d17ecea724443cfd79878b5e16f7b37a314fffb6c/albumentations-0.4.0.tar.gz (95kB)
+Requirement already satisfied, skipping upgrade: numpy>=1.11.1 in c:\anaconda3\lib\site-packages (from albumentations) (1.16.2)
+Requirement already satisfied, skipping upgrade: scipy in c:\anaconda3\lib\site-packages (from albumentations) (1.2.1)
+Collecting imgaug<0.2.7,>=0.2.5 (from albumentations)
+  Downloading https://files.pythonhosted.org/packages/ad/2e/748dbb7bb52ec8667098bae9b585f448569ae520031932687761165419a2/imgaug-0.2.6.tar.gz (631kB)
+Requirement already satisfied, skipping upgrade: PyYAML in c:\anaconda3\lib\site-packages (from albumentations) (5.1)
+Collecting opencv-python-headless>=4.1.1 (from albumentations)
+  Downloading https://files.pythonhosted.org/packages/9a/a2/1a7feb6565cd932d9c9d06c9bde22fe9345a348ee3ed4f55f2457e95b111/opencv_python_headless-4.1.1.26-cp37-cp37m-win_amd64.whl (39.0MB)
+Requirement already satisfied, skipping upgrade: scikit-image>=0.11.0 in c:\anaconda3\lib\site-packages (from imgaug<0.2.7,>=0.2.5->albumentations) (0.14.2)
+Requirement already satisfied, skipping upgrade: six in c:\anaconda3\lib\site-packages (from imgaug<0.2.7,>=0.2.5->albumentations) (1.12.0)
+Requirement already satisfied, skipping upgrade: matplotlib>=2.0.0 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (3.0.3)
+Requirement already satisfied, skipping upgrade: networkx>=1.8 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (2.2)
+Requirement already satisfied, skipping upgrade: pillow>=4.3.0 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (5.4.1)
+Requirement already satisfied, skipping upgrade: PyWavelets>=0.4.0 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (1.0.2)
+Requirement already satisfied, skipping upgrade: dask[array]>=1.0.0 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (1.1.4)
+Requirement already satisfied, skipping upgrade: cloudpickle>=0.2.1 in c:\anaconda3\lib\site-packages (from scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (0.8.0)
+Requirement already satisfied, skipping upgrade: cycler>=0.10 in c:\anaconda3\lib\site-packages (from matplotlib>=2.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (0.10.0)
+Requirement already satisfied, skipping upgrade: kiwisolver>=1.0.1 in c:\anaconda3\lib\site-packages (from matplotlib>=2.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (1.0.1)
+Requirement already satisfied, skipping upgrade: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in c:\anaconda3\lib\site-packages (from matplotlib>=2.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (2.3.1)
+Requirement already satisfied, skipping upgrade: python-dateutil>=2.1 in c:\anaconda3\lib\site-packages (from matplotlib>=2.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (2.8.0)
+Requirement already satisfied, skipping upgrade: decorator>=4.3.0 in c:\anaconda3\lib\site-packages (from networkx>=1.8->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (4.4.0)
+Requirement already satisfied, skipping upgrade: toolz>=0.7.3; extra == "array" in c:\anaconda3\lib\site-packages (from dask[array]>=1.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (0.9.0)
+Requirement already satisfied, skipping upgrade: setuptools in c:\anaconda3\lib\site-packages (from kiwisolver>=1.0.1->matplotlib>=2.0.0->scikit-image>=0.11.0->imgaug<0.2.7,>=0.2.5->albumentations) (40.8.0)
+Building wheels for collected packages: albumentations, imgaug
+  Building wheel for albumentations (setup.py): started
+  Building wheel for albumentations (setup.py): finished with status 'done'
+  Stored in directory: C:\Users\aczd087\AppData\Local\pip\Cache\wheels\94\7d\3b\82e3372b2f6fe2b12635df47fd3ff18bec8df488db0f5475e6
+  Building wheel for imgaug (setup.py): started
+  Building wheel for imgaug (setup.py): finished with status 'done'
+  Stored in directory: C:\Users\aczd087\AppData\Local\pip\Cache\wheels\97\ec\48\0d25896c417b715af6236dbcef8f0bed136a1a5e52972fc6d0
+Successfully built albumentations imgaug
+Installing collected packages: imgaug, opencv-python-headless, albumentations
+Successfully installed albumentations-0.4.0 imgaug-0.2.6 opencv-python-headless-4.1.1.26
